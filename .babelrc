@@ -1,0 +1,9 @@
+// configuration for the babel transpiler
+{
+	"presets": [
+			"@babel/preset-env",
+			["@babel/preset-react", {
+				"runtime": "automatic"
+			}]
+	]
+}
